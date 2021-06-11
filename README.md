@@ -1,4 +1,4 @@
- <p align="center"><img src="https://i.imgur.com/CU8mrd6.png" width="100" height="100"> </p>
+ <p align="center"><img src="https://i.imgur.com/bnNqYr2.png" width="100" height="100"> </p>
 <h3 align="center">Hunt.js</h3>
 
 ## Introduction
