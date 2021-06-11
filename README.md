@@ -1,4 +1,4 @@
-# Hunt
+ <p align="center"><img src="https://i.imgur.com/JhGEveu.png" width="155" height="85"> </p>
 
 ## Introduction
 
