@@ -5,13 +5,20 @@
 
 HuntJS is build to be a progressive framework for people to use and build user interfaces. HuntJS is build and designed from the ground up which is the most important part of this library. It needs to be easily scalable between a library and a framework (This can differ between use case). The origin is intended to show one layer from a single page application, which can help to deal with complex systems and support libraries.
 
-## Quick test implementation
+## Testing & Development
 To use HuntJS ATM, you need to run the index.js file with the node command:
 ```TypeScript
 node index.js
 ```
 
-## Commit conventions
+<p align="center"><img src="https://media1.giphy.com/media/91Z5o8YS7aK2hPNN97/giphy.gif?cid=790b761106d23481f08de15856ece798a014113d110faeb1&rid=giphy.gif&ct=g" width="480" height="184"> </p>
+
+### Testing
+<p>Thank you for contributing to HuntJS!
+
+Before creating a pull request with new development, please run the tests to ensure that everything is working great. It would also be a good idea to run the tests before starting development to distinguish problems between your environment and the HuntJS software. </p>
+
+### Commit conventions
 <table>
 <thead>
 <tr>
