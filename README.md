@@ -10,3 +10,27 @@ To use HuntJS ATM, you need to run the index.js file with the node command:
 ```TypeScript
 node index.js
 ```
+
+## Commit conventions
+<table>
+<thead>
+<tr>
+<th>Commit convention</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+ 
+<tr>
+<td>+</td>
+<td>A new addition to the project or a general addition</td>
+</tr>
+<tr>
+<td>+-</td>
+<td>A change in the project</td>
+</tr>
+<td>-</td>
+<td>Something is removed form the project</td>
+</tr>
+</tbody>
+</table>
