@@ -1,4 +1,4 @@
- <p align="center"><img src="https://i.imgur.com/bnNqYr2.png" width="100" height="100"> </p>
+ <p align="center"><img src="https://i.imgur.com/bEAnng4.png" width="200" height="100"> </p>
 <h3 align="center">Meta.js</h3>
 
 ## Introduction
