@@ -23,6 +23,7 @@ npm run component
 # The npm implementation for launching:
 npm run start
 ```
+<br>
 
 ## Testing
 <p>Thank you for contributing to MetaJS!
