@@ -1,1 +1,23 @@
-{}
+{
+  "name": "metajs",
+  "description": "<p align=\"center\"><img src=\"https://i.imgur.com/lBWRtnC.png\" width=\"150\" height=\"125\"> </p>\r <h3 align=\"center\">Meta.js</h3>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "component": "node lib/component.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meta-lib/metajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meta-lib/metajs/issues"
+  },
+  "homepage": "https://github.com/meta-lib/metajs#readme"
+}
