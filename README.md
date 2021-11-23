@@ -23,7 +23,6 @@ npm run start
 
 # These commands are work in progress and will be implemented in a custom format.
 ```
-<br>
 
 ## Testing
 <p>Thank you for contributing to MetaJS!
