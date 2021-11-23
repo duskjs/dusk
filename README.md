@@ -25,7 +25,7 @@ npm run start
 ```
 <br>
 
-### Testing
+## Testing
 <p>Thank you for contributing to MetaJS!
 
 Before creating a pull request with new development, please run the tests to ensure that everything is working great. It would also be a good idea to run the tests before starting development to distinguish problems between your environment and the MetaJS software. </p>
