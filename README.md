@@ -13,6 +13,16 @@ node index.js
 
 <p align="center"><img src="https://media1.giphy.com/media/91Z5o8YS7aK2hPNN97/giphy.gif?cid=790b761106d23481f08de15856ece798a014113d110faeb1&rid=giphy.gif&ct=g" width="480" height="184"> </p>
 
+### Command examples:
+
+```shell
+# To create a component:
+npm run component
+# The npm implementation for launching:
+npm run start
+
+# These commands are work in progress and will be implemented in a custom format.
+```
 ### Testing
 <p>Thank you for contributing to MetaJS!
 
