@@ -16,12 +16,12 @@ node index.js
 ### Command examples:
 
 ```shell
+# These commands are work in progress and will be implemented in a custom format.
+
 # To create a component:
 npm run component
 # The npm implementation for launching:
 npm run start
-
-# These commands are work in progress and will be implemented in a custom format.
 ```
 
 ## Testing
