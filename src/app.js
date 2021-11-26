@@ -1,6 +1,7 @@
 class App
 {
     constructor(){}
+
     server = require('./server').RunServer();
 }
 

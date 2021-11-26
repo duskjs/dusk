@@ -12,6 +12,8 @@ module.exports = {
         fs.readFile('./index.html', function (err, html) {
 
             if (err) throw err;    
+            
+            JSON.parse(fs.readFileSync('compdep.json', 'utf8'))['component'].forEach(component => html += fs.readFileSync('./src/component/'+component+'/'+component+'.html'));
         
             const server = http.createServer(function(request, response) {  
                 response.writeHeader(200, {"Content-Type": "text/html"});  
