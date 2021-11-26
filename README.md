@@ -20,7 +20,7 @@ node index.js
 
 # To create a component:
 npm run component
-# The order of rendering is handle by the component array in the compdep.json 
+# The order of rendering is handled by the component array in the compdep.json 
 
 # The npm implementation for launching:
 npm run start
