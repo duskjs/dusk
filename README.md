@@ -42,7 +42,8 @@ npm run component
 ```
 In this example you have created two components: TestComponent, TestTwoComponent.
 
-These components will also be rendered in the order that they were created. For example you dont like the order that there are rendered in, you can change the order in compdep.json. The order will be in de component array and here you will be enable to change the order to [TestTwoComponent, TestComponent]. The component will now be rendered in a different order.
+These components will also be rendered in the order that they were created. For example you dont like the order that there are rendered in, you can change the order in compdep.json. The order will be in de component array and here you will be enable to change the order to <b> [TestTwoComponent, TestComponent] </b> . The component will now be rendered in a different order.
+
 ## Testing
 <p>Thank you for contributing to MetaJS!
 
