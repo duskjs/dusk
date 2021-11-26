@@ -13,7 +13,7 @@ node index.js
 
 <p align="center"><img src="https://media1.giphy.com/media/91Z5o8YS7aK2hPNN97/giphy.gif?cid=790b761106d23481f08de15856ece798a014113d110faeb1&rid=giphy.gif&ct=g" width="480" height="184"> </p>
 
-### Command examples:
+### Commands:
 
 ```shell
 # These commands are work in progress and will be implemented in a custom format.
@@ -25,7 +25,24 @@ npm run component
 # The npm implementation for launching:
 npm run start
 ```
+#### Example component:
+The way that are components are rendered is easy in practice:
+```shell
+# If you want to create two components, you can edit the compdep.json to change the order of rendering:
 
+npm run component
+#Component Name: Test
+#Starting generation component...
+#Component created successfully
+
+npm run component
+#Component Name: TestTwo
+#Starting generation component...
+#Component created successfully
+```
+In this example you have created two components: TestComponent, TestTwoComponent.
+
+These components will also be rendered in the order that they were created. For example you dont like the order that there are rendered in, you can change the order in compdep.json. The order will be in de component array and here you will be enable to change the order to [TestTwoComponent, TestComponent]. The component will now be rendered in a different order.
 ## Testing
 <p>Thank you for contributing to MetaJS!
 
