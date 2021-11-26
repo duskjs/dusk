@@ -15,18 +15,19 @@ node index.js
 
 ### Commands:
 
-```shell
-# These commands are work in progress and will be implemented in a custom format.
+These commands are work in progress and will be implemented in a custom format.
 
+```shell
 # To create a component:
 npm run component
-# The order of rendering is handled by the component array in the compdep.json 
 
 # The npm implementation for launching:
 npm run start
 ```
-#### Example component:
-The way that are components are rendered is easy in practice:
+
+### Example component:
+The way that components are rendered is as followed:
+
 ```shell
 # If you want to create two components, you can edit the compdep.json to change the order of rendering:
 
