@@ -29,8 +29,6 @@ npm run start
 The way that components are rendered is as followed:
 
 ```shell
-# If you want to create two components, you can edit the compdep.json to change the order of rendering:
-
 npm run component
 #Component Name: Test
 #Starting generation component...
