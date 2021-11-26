@@ -6,9 +6,10 @@
 MetaJS is build to be a progressive framework for people to use and build interfaces & web applications. MetaJS is build and designed from the ground up which is the most important part of this framework. It needs to be easily scalable between a library and a framework (This can differ between use case). The origin is intended to give other developers a easier time when developing.
 
 ## Testing & Development
-To use MetaJS ATM, you need to run the index.js file with the node command:
+To use MetaJS ATM, you need to run the index.js file with the node command or the NPM command:
 ```TypeScript
 node index.js
+npm run start
 ```
 
 <p align="center"><img src="https://media1.giphy.com/media/91Z5o8YS7aK2hPNN97/giphy.gif?cid=790b761106d23481f08de15856ece798a014113d110faeb1&rid=giphy.gif&ct=g" width="480" height="184"> </p>
