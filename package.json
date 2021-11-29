@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "component": "node lib/component.js"
+    "component": "node lib/component/component.js"
   },
   "repository": {
     "type": "git",
