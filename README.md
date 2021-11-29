@@ -1,5 +1,5 @@
 <br>
-<p align="center"><img src="https://i.imgur.com/woXH17D.png" width="145" height="89"> </p>
+<p align="center"><img src="https://i.imgur.com/woXH17D.png" width="140" height="82"> </p>
 <h3 align="center">Meta.js</h3>
 
 ## Introduction
