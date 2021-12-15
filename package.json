@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/meta-lib/metajs/issues"
   },
-  "homepage": "https://github.com/meta-lib/metajs#readme"
+  "homepage": "https://github.com/meta-lib/metajs#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.13"
+  }
 }
