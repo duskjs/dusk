@@ -9,7 +9,6 @@ MetaJS is build to be a progressive framework for people to use and build interf
 ## Testing & Development
 To use MetaJS ATM, you need to run the index.js file with the node command or the NPM command:
 ```TypeScript
-node index.js
 npm run start
 ```
 
