@@ -1,6 +1,6 @@
 {
-  "name": "metajs",
-  "description": "<p align=\"center\"><img src=\"https://i.imgur.com/lBWRtnC.png\" width=\"150\" height=\"125\"> </p>\r <h3 align=\"center\">Meta.js</h3>",
+  "name": "MuntJS",
+  "description": "<p align=\"center\"><img src=\"https://i.imgur.com/lBWRtnC.png\" width=\"150\" height=\"125\"> </p>\r <h3 align=\"center\">Munt</h3>",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
