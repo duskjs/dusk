@@ -47,7 +47,7 @@ These components will also be rendered in the order that they were created. For 
 ## Testing
 <p>Thank you for contributing to Munt!
 
-Before creating a pull request with new development, please run the tests to ensure that everything is working great. It would also be a good idea to run the tests before starting development to distinguish problems between your environment and the Macado software. </p>
+Before creating a pull request with new development, please run the tests to ensure that everything is working great. It would also be a good idea to run the tests before starting development to distinguish problems between your environment and the Munt software. </p>
 
 #### Commit conventions
 <table>
