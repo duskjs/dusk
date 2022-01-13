@@ -1,5 +1,5 @@
 <br>
-<p align="center"><img src="https://i.imgur.com/woXH17D.png" width="13%" height="13%"> </p>
+<p align="center"><img src="https://i.imgur.com/TgbzZx8.png" width="13%" height="13%"> </p>
 <h3 align="center">Munt</h3>
 
 ## Introduction
