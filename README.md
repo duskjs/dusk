@@ -27,7 +27,7 @@ npm run component
 # ATM the compiling is a separated command:
 npm run compile
 
-# The npm implementation for launching:
+# To launch the application:
 npm run start
 ```
 We recommend that the compile command has been executed before the launch command has been used.
