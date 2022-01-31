@@ -1,5 +1,5 @@
 {
-  "name": "MuntJS",
+  "name": "Wombat JS",
   "description": "<p align=\"center\"><img src=\"https://i.imgur.com/lBWRtnC.png\" width=\"150\" height=\"125\"> </p>\r <h3 align=\"center\">Munt</h3>",
   "version": "1.0.0",
   "main": "index.js",
@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "compile": "ts-node scripts/build.ts",
     "start": "ts-node index.ts",
     "component": "ts-node lib/component/component.ts"
   },
