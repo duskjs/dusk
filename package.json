@@ -1,8 +1,8 @@
 {
   "name": "Wombat JS",
-  "description": "<p align=\"center\"><img src=\"https://i.imgur.com/lBWRtnC.png\" width=\"150\" height=\"125\"> </p>\r <h3 align=\"center\">Munt</h3>",
+  "description": "<p align=\"center\"><img src=\"https://i.imgur.com/lBWRtnC.png\" width=\"150\" height=\"125\"> </p>\r <h3 align=\"center\">Wombat</h3>",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "directories": {
     "lib": "lib"
   },
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meta-lib/metajs.git"
+    "url": "git+https://github.com/wombatjs/wombat.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/meta-lib/metajs/issues"
+    "url": "https://github.com/wombatjs/wombat/issues"
   },
-  "homepage": "https://github.com/meta-lib/metajs#readme",
+  "homepage": "https://github.com/wombatjs/wombat#readme",
   "devDependencies": {
     "@types/node": "^16.11.13"
   }
