@@ -14,7 +14,6 @@ Once you have Node.js installed:
 # Install locally the project and execute:
 npm i
 ```
-<br>
 
 ## Testing & Development:
 
@@ -49,7 +48,7 @@ npm run component
 In this example you have created two components: TestComponent, TestTwoComponent.
 
 These components will also be rendered in the order that they were created. For example you dont like the order that there are rendered in, you can change the order in compdep.json. The order will be in de component array and here you will be enable to change the order to <b> [TestTwoComponent, TestComponent] </b> . The component will now be rendered in a different order.
-<br>
+<br><br>
 If you want to launch the application you want to compile the application first. With this you can target each <w-tag> element to compile it to plain HTML. To do this the following command structure is recommended :
  
  ```
