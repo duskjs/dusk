@@ -15,12 +15,28 @@ function CheckForWombat(whtml: any)
 {
     let data = fs.readFileSync(__dirname + "../../src/" + whtml).toString();
     let lines = data.split(/\r\n|\n/);
+    let builder = "";
 
     if(lines)
         lines.forEach((line: string) => {
             let words = line.split(" ");
-            words.forEach((word)=>{ if(WombatFound(word)) parser.ParseWombatContent(word); });
+
+            words.forEach((word)=>{ 
+                if(WombatFound(word)) builder += parser.ParseWombatContent(word) + " "; 
+                else builder += word + " "; 
+            });
+            builder += "\n";
         });
+
+    if (!fs.existsSync('dist')) 
+        fs.mkdirSync('dist')
+        
+          
+    fs.writeFile('dist/'+whtml.substring(0, whtml.indexOf('.'))+'.html', builder, function (err: any) 
+    {
+        if (err) throw err;
+            console.log('File is parsed successfully.');
+    });
 }
 
 function ReturnExtension(file: any)

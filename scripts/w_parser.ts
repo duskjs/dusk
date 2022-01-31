@@ -1,6 +1,6 @@
 module.exports = 
 {
-    ParseWombatContent: function(parse)
+    ParseWombatContent: function(parse: any)
     {
         switch (true) 
         {
