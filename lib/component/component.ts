@@ -10,7 +10,7 @@ async function StartGenerationComponent()
         output: process.stdout
     })
     
-    readline.question(`Component name: `, name => {
+    readline.question(`Component name: `, (name: string) => {
         
         try
         {
@@ -33,17 +33,17 @@ async function StartGenerationComponent()
             var fileContent = config.ReturnPresetJS().toString();
             var data = fileContent.replaceAll("PlaceHolderClassnameComponent", name+"Component");
             // Creating new component file
-            fs.writeFile('./src/component/'+name+'Component/'+name+'Component.js', data, function (err) 
+            fs.writeFile('./src/component/'+name+'Component/'+name+'Component.js', data, function () 
             {
                 fileContent = config.ReturnPresetHTML().toString();
                 data = fileContent.replaceAll("PlaceHolderClassnameComponent", name+"Component");
                 
-                fs.writeFile('./src/component/'+name+'Component/'+name+'Component.html', data, function (err) 
+                fs.writeFile('./src/component/'+name+'Component/'+name+'Component.html', data, function () 
                 {
-                    jsonComponent = JSON.parse(fs.readFileSync('metadep.json', 'utf8'));
+                    let jsonComponent = JSON.parse(fs.readFileSync('metadep.json', 'utf8'));
                     jsonComponent['component'].push(""+name+"Component");
           
-                    fs.writeFile('metadep.json', JSON.stringify(jsonComponent), function (err) 
+                    fs.writeFile('metadep.json', JSON.stringify(jsonComponent), function (err: any) 
                     {
                         if (err) throw err;
                             console.log('Component created successfully');

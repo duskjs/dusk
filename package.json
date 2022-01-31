@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "ts-node index.ts",
-    "component": "node lib/component/component.js"
+    "component": "ts-node lib/component/component.ts"
   },
   "repository": {
     "type": "git",
