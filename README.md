@@ -57,31 +57,3 @@ npm run start
 ```
 There is ATM no otherway to do it but if you have the solution, by all means be our guest ;)
  
-## Testing
-<p>Thank you for contributing to Wombat!
-
-Before creating a pull request with new development, please run the tests to ensure that everything is working great. It would also be a good idea to run the tests before starting development to distinguish problems between your environment and the Wombat software. </p>
-
-#### Commit conventions
-<table>
-<thead>
-<tr>
-<th>Commit convention</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
- 
-<tr>
-<td>+</td>
-<td>A new addition to the project or a general addition</td>
-</tr>
-<tr>
-<td>+-</td>
-<td>A change in the project</td>
-</tr>
-<td>-</td>
-<td>Something is removed form the project</td>
-</tr>
-</tbody>
-</table>
