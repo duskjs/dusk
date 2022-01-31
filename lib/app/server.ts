@@ -3,7 +3,7 @@ var fs = require('fs');
 var path = require('path');
 
 var hostname = '127.0.0.1';
-var port = 2342;
+var port = JSON.parse(fs.readFileSync('metadep.json', 'utf8'))['port'];
 
 module.exports = {
     
