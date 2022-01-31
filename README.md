@@ -49,7 +49,15 @@ npm run component
 In this example you have created two components: TestComponent, TestTwoComponent.
 
 These components will also be rendered in the order that they were created. For example you dont like the order that there are rendered in, you can change the order in compdep.json. The order will be in de component array and here you will be enable to change the order to <b> [TestTwoComponent, TestComponent] </b> . The component will now be rendered in a different order.
-
+<br>
+If you want to launch the application you want to compile the application first. With this you can target each <w-tag> element to compile it to plain HTML. To do this the following command structure is recommended :
+ 
+ ```
+npm run compile
+npm run start
+```
+There is ATM no otherway to do it but if you have the solution, by all means be our guest ;)
+ 
 ## Testing
 <p>Thank you for contributing to Wombat!
 
