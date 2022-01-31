@@ -19,7 +19,7 @@ npm i
 
 These commands are work in progress and will be implemented in a custom format.
 
-```TypeScript
+```shell
 # To create a component:
 npm run component
 
