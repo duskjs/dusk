@@ -30,8 +30,8 @@ async function StartGenerationComponent()
             //
 
             // Gets data from template and replaces naming
-            var fileContent = config.ReturnPresetJS().toString();
-            var data = fileContent.replaceAll("PlaceHolderClassnameComponent", name+"Component");
+            let fileContent = config.ReturnPresetJS().toString();
+            let data = fileContent.replaceAll("PlaceHolderClassnameComponent", name+"Component");
             // Creating new component file
             fs.writeFile('./src/component/'+name+'Component/'+name+'Component.js', data, function () 
             {
