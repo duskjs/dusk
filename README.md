@@ -1,5 +1,5 @@
 <br>
-<p align="center"><img src="https://i.imgur.com/hBZeJKS.png" width="13%" height="13%"> </p>
+<p align="center"><img src="https://i.imgur.com/Sevv9qP.png" width="13%" height="13%"> </p>
 <h3 align="center">Wombat</h3>
 
 ## Introduction
