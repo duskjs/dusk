@@ -1,6 +1,6 @@
 <br>
 <p align="center"><img src="https://i.imgur.com/u4mDzl5.png" width="8%" height="8%"> </p>
-<h3 align="center">Wombat</h3>
+<h4 align="center">Wombat</h4>
 
 ## Introduction
 
