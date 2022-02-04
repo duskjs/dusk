@@ -1,6 +1,6 @@
 <br>
 <p align="center"><img src="https://i.imgur.com/KgPPqWg.png" width="10%" height="10%"> </p>
-<h4 align="center">Draw</h4>
+<h4 align="center">Draw.js</h4>
 
 ## Introduction
 
