@@ -7,14 +7,14 @@ Draw is build to be a progressive framework for people to use and build interfac
 <br><br>
 Draw uses its own html tag called the <w-tag>. This will give your HTML pages styling in a easy way. Its as simply:
  
- ```Typescript
+ ```html
 <w-card>
      Welcome
 </w-card>
  ```
 The way that components are rendered is as followed:
 
-```shell
+```Typescript
 npm run component
 #Component Name: Test
 #Starting generation component...
