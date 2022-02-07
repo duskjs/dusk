@@ -4,18 +4,15 @@
 <br>
 
 Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw is build and designed from the ground up which is the most important part of this framework. It needs to be easily scalable between a library and a framework (This can differ between use case). The origin is intended to give other developers a easier time when developing.
-<br>
-This framework uses its own html tag called the <w-tag>. This will give your HTML pages styling in a easy way. Its as simply:
+<br><br>
+Draw uses its own html tag called the <w-tag>. This will give your HTML pages styling in a easy way. Its as simply:
  
- ```HTML
-      <body>
-          <w-card>
-               Welcome
-          </w-card>
-     </body>
+ ```Typescript
+<w-card>
+     Welcome
+</w-card>
  ```
-
- The way that components are rendered is as followed:
+The way that components are rendered is as followed:
 
 ```shell
 npm run component
