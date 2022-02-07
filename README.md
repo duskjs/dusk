@@ -14,7 +14,7 @@ Draw uses its own html tag called the <w-tag>. This will give your HTML pages st
  ```
 The way that components are rendered is as followed:
 
-```Typescript
+```shell
 npm run component
 #Component Name: Test
 #Starting generation component...
