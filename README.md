@@ -4,33 +4,8 @@
 <br>
 
 Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw is build and designed from the ground up which is the most important part of this framework. It needs to be easily scalable between a library and a framework (This can differ between use case). The origin is intended to give other developers a easier time when developing.
+<br>
 
-## Installation
-
-Once you have Node.js installed:
-
-```shell
-# Install locally the project and execute:
-npm i
-```
-
-## Testing & Development:
-
-These commands are work in progress and will be implemented in a custom format.
-
-```shell
-# To create a component:
-npm run component
-
-# ATM the compiling is a separated command:
-npm run compile
-
-# To launch the application:
-npm run start
-```
-We recommend that the compile command has been executed before the launch command has been used.
-
-### Example component:
 The way that components are rendered is as followed:
 
 ```shell
@@ -55,4 +30,27 @@ npm run compile
 npm run start
 ```
 There is ATM no otherway to do it but if you have the solution, by all means be our guest ;)
+
+
+## Testing & Development:
+
+Once you have Node.js installed:
+
+```shell
+# Install locally the project and execute:
+npm i
+```
  
+These commands are work in progress and will be implemented in a custom format.
+
+```shell
+# To create a component:
+npm run component
+
+# ATM the compiling is a separated command:
+npm run compile
+
+# To launch the application:
+npm run start
+```
+We recommend that the compile command has been executed before the launch command has been used.
