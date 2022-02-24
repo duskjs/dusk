@@ -1,26 +1,26 @@
 {
-  "name": "Wombat JS",
-  "description": "<p align=\"center\"><img src=\"https://i.imgur.com/lBWRtnC.png\" width=\"150\" height=\"125\"> </p>\r <h3 align=\"center\">Wombat</h3>",
-  "version": "1.0.0",
+  "name": "Draw.js",
+  "description": "<p align=\"center\"><img src=\"https://i.imgur.com/tkUPrMZ.png\" width=\"150\" height=\"125\"> </p>\r <h3 align=\"center\">Draw</h3>",
+  "version": "0.1.0",
   "main": "index.ts",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
     "compile": "ts-node scripts/build.ts",
-    "start": "ts-node index.ts",
+    "start": "npm run compile & ts-node index.ts",
     "component": "ts-node lib/component/component.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wombatjs/wombat.git"
+    "url": "git+https://github.com/draw-js/draw.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wombatjs/wombat/issues"
+    "url": "https://github.com/draw-js/draw/issues"
   },
-  "homepage": "https://github.com/wombatjs/wombat#readme",
+  "homepage": "https://github.com/draw-js/draw#readme",
   "devDependencies": {
     "@types/node": "^16.11.13"
   }

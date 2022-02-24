@@ -1,13 +1,13 @@
 module.exports = 
 {
-    ParseWombatContent: function(parse: any)
+    ParseDrawContent: function(parse: any)
     {
         switch (true) 
         {
-            case parse.indexOf("<w-card>") !== -1:
-                return parse.replace("<w-card>", "<div style='width:100%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);'>");
-            case parse.indexOf("</w-card>") !== -1:
-                return parse.replace("</w-card>", "</div>");
+            case parse.indexOf("<d-card>") !== -1:
+                return parse.replace("<d-card>", "<div style='width:100%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);'>");
+            case parse.indexOf("</d-card>") !== -1:
+                return parse.replace("</d-card>", "</div>");
             default:
                 return parse;
         }

@@ -8,10 +8,10 @@ export class Annotation
         let files = fs.readdirSync(__dirname + "../../src/");
         
         for(let i = 0; i < files.length; i++)
-            if(this.ReturnExtension(files[i]).toString().toLowerCase() == 'html') this.CheckForWombat(files[i]);
+            if(this.ReturnExtension(files[i]).toString().toLowerCase() == 'html') this.CheckForDraw(files[i]);
     }
 
-    CheckForWombat(whtml: any)
+    CheckForDraw(whtml: any)
     {
         let data = fs.readFileSync(__dirname + "../../src/" + whtml).toString();
         let lines = data.split(/\r\n|\n/);
@@ -22,7 +22,7 @@ export class Annotation
                 let words = line.split(" ");
 
                 words.forEach((word)=>{ 
-                    if(this.WombatFound(word)) builder += parser.ParseWombatContent(word) + " "; 
+                    if(this.DrawFound(word)) builder += parser.ParseDrawContent(word) + " "; 
                     else builder += word + " "; 
                 });
                 builder += "\n";
@@ -44,9 +44,9 @@ export class Annotation
         return file.split('.').pop();
     }
 
-    WombatFound(whtml: string)
+    DrawFound(whtml: string)
     {
-        if(whtml.includes("<w-") || whtml.includes("</w-")) return true;
+        if(whtml.includes("<d-") || whtml.includes("</d-")) return true;
         return false;
     }
 }
