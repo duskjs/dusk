@@ -3,7 +3,8 @@
 <h4 align="center">draw</h4>
 
 <p align="center">
- <a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?sanitize=true" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?sanitize=true" alt="NPM"></a>
+  <a href="https://github.com/draw-js/draw/releases/tag/base"><img src="https://img.shields.io/github/package-json/v/draw-js/draw?style=flat-square" alt="Version"></a>
 </p>
 <br>
 
