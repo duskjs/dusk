@@ -3,7 +3,6 @@
 <h4 align="center">draw</h4>
 
 <p align="center">
-[![NPM version](https://img.shields.io/npm/v/drawjsframework.svg)](https://www.npmjs.com/package/drawjsframework)
  <a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?sanitize=true" alt="Version"></a>
 </p>
 <br>
