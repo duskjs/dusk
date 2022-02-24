@@ -3,7 +3,7 @@
 <h4 align="center">draw</h4>
 
 <p align="center">
- <a href="https://circleci.com/gh/draw-js/draw/tree/main"><img src="https://img.shields.io/circleci/project/github/draw-js/draw/main.svg?sanitize=true" alt="Build Status"></a>
+ <a href="https://circleci.com/gh/draw-js/draw/tree/main"><img src="https://img.shields.io/github/downloads/draw-js/draw/base/total?style=flat-square" alt="downloads"></a>
  <a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?sanitize=true" alt="Version"></a>
 </p>
 <br>
