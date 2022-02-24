@@ -10,7 +10,7 @@
 Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw is build and designed from the ground up which is the most important part of this framework. It needs to be easily scalable between a library and a framework (This can differ between use case). The origin is intended to give other developers a easier time when developing.
 <br><br>
 
-## Use:
+## Examples:
 Draw uses its own html tag called the <w-tag>. This will give your HTML pages styling in a easy way. Its as simply:
  
  ```html
