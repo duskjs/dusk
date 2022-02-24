@@ -1,6 +1,9 @@
 <br>
 <p align="center"><img src="https://i.imgur.com/tkUPrMZ.png" width="9%" height="9%"> </p>
 <h4 align="center">draw</h4>
+<p align="center">
+[![NPM version](https://img.shields.io/npm/v/drawjsframework.svg)](https://www.npmjs.com/package/drawjsframework)
+</p>
 <br>
 
 Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw is build and designed from the ground up which is the most important part of this framework. It needs to be easily scalable between a library and a framework (This can differ between use case). The origin is intended to give other developers a easier time when developing.
