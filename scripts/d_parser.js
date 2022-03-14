@@ -1,6 +1,6 @@
 module.exports = 
 {
-    ParseDrawContent: function(parse: any)
+    ParseDrawContent: function(parse)
     {
         switch (true) 
         {

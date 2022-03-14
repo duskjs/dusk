@@ -1,7 +1,7 @@
 const fs = require("fs");
-const parser = require("./w_parser");
+const parser = require("./d_parser");
 
-export class Annotation
+class Annotation
 {
     CheckFilesForAnnotation()
     {
@@ -11,14 +11,14 @@ export class Annotation
             if(this.ReturnExtension(files[i]).toString().toLowerCase() == 'html') this.CheckForDraw(files[i]);
     }
 
-    CheckForDraw(whtml: any)
+    CheckForDraw(dhtml)
     {
-        let data = fs.readFileSync(__dirname + "../../src/" + whtml).toString();
+        let data = fs.readFileSync(__dirname + "../../src/" + dhtml).toString();
         let lines = data.split(/\r\n|\n/);
         let builder = "";
         
         if(lines)
-            lines.forEach((line: string) => {
+            lines.forEach((line) => {
                 let words = line.split(" ");
 
                 words.forEach((word)=>{ 
@@ -32,21 +32,24 @@ export class Annotation
             fs.mkdirSync('dist')
             
             
-        fs.writeFile('dist/'+whtml.substring(0, whtml.indexOf('.'))+'.html', builder, function (err: any) 
+        fs.writeFile('dist/'+dhtml.substring(0, dhtml.indexOf('.'))+'.html', builder, function (err) 
         {
             if (err) throw err;
                 console.log('File is parsed successfully.');
         });
     }
 
-    ReturnExtension(file: any)
+    ReturnExtension(file)
     {
         return file.split('.').pop();
     }
 
-    DrawFound(whtml: string)
+    DrawFound(dhtml)
     {
-        if(whtml.includes("<d-") || whtml.includes("</d-")) return true;
+        if(dhtml.includes("<d-") || dhtml.includes("</d-")) return true;
         return false;
     }
 }
+
+
+module.exports = new Annotation();

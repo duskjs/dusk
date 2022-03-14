@@ -1,5 +1,5 @@
 {
-  "name": "Draw.js",
+  "name": "drawjsframework",
   "description": "<p align=\"center\"><img src=\"https://i.imgur.com/tkUPrMZ.png\" width=\"150\" height=\"125\"> </p>\r <h3 align=\"center\">Draw</h3>",
   "version": "0.1.0",
   "main": "index.ts",
@@ -7,8 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "compile": "ts-node scripts/build.ts",
-    "start": "npm run compile & ts-node index.ts",
+    "compile": "node scripts/build.js",
+    "start": "npm run compile & node index.js",
     "component": "ts-node lib/component/component.ts"
   },
   "repository": {
