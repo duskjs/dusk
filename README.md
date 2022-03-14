@@ -56,6 +56,8 @@ npm run component
 npm run compile
 # Starts the project locally without setup:
 npm run server
+# Sets the files up for compilling:
+npm run disting
 # To launch the application:
 npm run start
 ```
