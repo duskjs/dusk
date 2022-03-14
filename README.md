@@ -52,11 +52,12 @@ These commands are work in progress and will be implemented in a custom format.
 ```shell
 # To create a component:
 npm run component
-
-# ATM the compiling is a separated command:
+# Compiles the files inside the dist:
 npm run compile
-
+# Starts the project locally without setup:
+npm run server
+# Sets the files up for compilling:
+npm run disting
 # To launch the application:
 npm run start
 ```
-We recommend that the compile command has been executed before the launch command has been used.
