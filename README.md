@@ -61,4 +61,3 @@ npm run disting
 # To launch the application:
 npm run start
 ```
-We recommend that the compile command has been executed before the launch command has been used.
