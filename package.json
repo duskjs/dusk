@@ -8,7 +8,9 @@
   },
   "scripts": {
     "compile": "node scripts/build.js",
-    "start": "npm run compile & node index.js",
+    "disting": "node scripts/dister.js",
+    "start": "npm run disting & npm run compile & node index.js",
+    "server": "node index.js",
     "component": "ts-node lib/component/component.ts"
   },
   "repository": {
@@ -23,5 +25,8 @@
   "homepage": "https://github.com/draw-js/draw#readme",
   "devDependencies": {
     "@types/node": "^16.11.13"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.1"
   }
 }

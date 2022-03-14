@@ -1,19 +1,24 @@
-const fs = require("fs");
+const fs = require('fs')
 const parser = require("./d_parser");
+const path = require('path')
 
 class Annotation
 {
+    distpath = path.join(__dirname, '../dist/');
+
     CheckFilesForAnnotation()
-    {
-        let files = fs.readdirSync(__dirname + "../../src/");
-        
+    {  
+        let files = fs.readdirSync(this.distpath); 
+
         for(let i = 0; i < files.length; i++)
             if(this.ReturnExtension(files[i]).toString().toLowerCase() == 'html') this.CheckForDraw(files[i]);
+
+        console.log('Files are parsed successfully.');
     }
 
     CheckForDraw(dhtml)
     {
-        let data = fs.readFileSync(__dirname + "../../src/" + dhtml).toString();
+        let data = fs.readFileSync(this.distpath + dhtml).toString();
         let lines = data.split(/\r\n|\n/);
         let builder = "";
         
@@ -28,21 +33,10 @@ class Annotation
                 builder += "\n";
             });
 
-        if (!fs.existsSync('dist')) 
-            fs.mkdirSync('dist')
-            
-            
-        fs.writeFile('dist/'+dhtml.substring(0, dhtml.indexOf('.'))+'.html', builder, function (err) 
-        {
-            if (err) throw err;
-                console.log('File is parsed successfully.');
-        });
+        fs.writeFile(this.distpath + dhtml.substring(0, dhtml.indexOf('.'))+'.html', builder, function (err) { if (err) throw err; });
     }
 
-    ReturnExtension(file)
-    {
-        return file.split('.').pop();
-    }
+    ReturnExtension(file){ return file.split('.').pop(); }
 
     DrawFound(dhtml)
     {
