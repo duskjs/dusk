@@ -27,6 +27,7 @@
     "@types/node": "^16.11.13"
   },
   "dependencies": {
+    "express": "^4.17.3",
     "fs-extra": "^10.0.1"
   }
 }
