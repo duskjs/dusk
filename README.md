@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/tkUPrMZ.png" width="86" height="86"> Draw
+# <img src="https://i.imgur.com/tkUPrMZ.png" width="86" height="86"> Drawjs: A Down To Earth Javascript Framework
 
 ### Create. Fun. Simple.
 
