@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/tkUPrMZ.png" width="86" height="86"> DrawJS: Create. Fun. Simple.
+# <img src="https://i.imgur.com/tkUPrMZ.png" width="86" height="86"> Drawjs: A JavaScript Framework.
 
 <p>
   <a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
