@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/tkUPrMZ.png" width="86" height="86"> Drawjs: Simplified Javascript Development
+# <img src="https://i.imgur.com/tkUPrMZ.png" width="86" height="86"> Drawjs
 
 ### Create. Fun. Simple.
 
