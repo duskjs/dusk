@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/tkUPrMZ.png" width="86" height="86"> Draw
+# <img src="https://i.imgur.com/tkUPrMZ.png" width="76" height="76"> Draw
 
 ### Create. Fun. Simple.
 
