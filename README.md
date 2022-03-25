@@ -12,7 +12,7 @@ Draw is build to be a progressive framework for people to use and build interfac
 <br><br>
 
 ### Examples:
-<hr>
+<hr></hr>
 Draw uses its own html tag called the <w-tag>. This will give your HTML pages styling in a easy way. Its as simply:
  
  ```html
@@ -45,7 +45,7 @@ module.exports = TestComponent;
 <br>
   
 ### Testing & Development:
-<hr>
+<hr></hr>
 Once you have Node.js installed:
 
 ```shell
