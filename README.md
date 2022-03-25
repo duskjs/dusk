@@ -11,8 +11,9 @@
 Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw tries to take React.component & Vue tag ideas to create a new and orignal format from scratch. It needs to be easily scalable between a library and a framework (This can differ between use case). The origin is intended to give other developers a easier time when developing.
 <br><br>
 
-### Examples:
-<hr></hr>
+#### Examples
+<hr>
+
 Draw uses its own html tag called the <w-tag>. This will give your HTML pages styling in a easy way. Its as simply:
  
  ```html
@@ -44,8 +45,9 @@ module.exports = TestComponent;
 ```
 <br>
   
-### Testing & Development:
-<hr></hr>
+#### Testing & Development
+<hr>
+  
 Once you have Node.js installed:
 
 ```shell
