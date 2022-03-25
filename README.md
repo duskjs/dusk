@@ -42,7 +42,8 @@ class TestComponent extends DrawComponent {
 }
 module.exports = TestComponent;
 ```
-
+<br><br>
+  
 ### Testing & Development:
 <hr>
 Once you have Node.js installed:
