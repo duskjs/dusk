@@ -1,6 +1,11 @@
-const Annotation = require("./annotation");
-const Component = require("../lib/component/componentConfig");
+const fs = require('fs');
 
-Annotation.CheckFilesForAnnotation();
-//let elements = Component.getExtendsComponent();
-//console.log(elements)
+const Annotation = require("../lib/translation/annotation");
+const Component = require("../lib/component/componentConfig");
+const { Console } = require('console');
+
+try{     
+    let jsonComponent = JSON.parse(fs.readFileSync('metadep.json', 'utf8'));
+    jsonComponent['component'].forEach(comp => Component.writeToIndex(Component.getExtendsComponent(comp).Render()) ); }
+catch(e){ console.log(e)}
+finally{ Annotation.CheckFilesForAnnotation(); }

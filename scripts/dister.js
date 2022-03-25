@@ -1,5 +1,5 @@
 const fs = require('fs-extra')
-const path = require('path')
+const path = require('path');
 const srcpath = path.join(__dirname, '../src/');
 const distpath = path.join(__dirname, '../dist/');
 

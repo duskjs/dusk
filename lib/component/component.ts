@@ -20,6 +20,13 @@ async function StartGenerationComponent()
             
             // Creating new component file
             fs.writeFile('./src/component/'+name+'Component/'+name+'Component.js', "", function () { console.log('Component created successfully'); });
+
+            // Pushing component name
+            let jsonComponent = JSON.parse(fs.readFileSync('metadep.json', 'utf8'));
+            jsonComponent['component'].push(""+name+"Component");
+            
+            // Writing to JSON
+            fs.writeFile('metadep.json', JSON.stringify(jsonComponent), function (err: any) { console.log('Component tracked'); });
         }
         catch(error)
         {
