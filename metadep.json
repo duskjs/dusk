@@ -1,4 +1,1 @@
-{
-    "component":[],
-    "port":8085
-}
+{"component":["HiComponent","ExampleComponentComponent","ExampleComponent","ExampleComponent","ExampleComponent"],"port":8085}
