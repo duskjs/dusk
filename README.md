@@ -26,15 +26,21 @@ npm run component
 #Component Name: Test
 #Starting generation component...
 #Component created successfully
-
-npm run component
-#Component Name: TestTwo
-#Starting generation component...
-#Component created successfully
 ```
-In this example you have created two components: TestComponent, TestTwoComponent.
+In this example you have created the component: TestComponent.
 
-These components will also be rendered in the order that they were created. For example you dont like the order that there are rendered in, you can change the order in compdep.json. The order will be in de component array and here you will be enable to change the order to <b> [TestTwoComponent, TestComponent] </b> . The component will now be rendered in a different order.
+This component will be placed inside the component folder. There will be a folder with the name of the component you just created. Inside the folder there is a .js file. You can create html components like:
+
+```Javascript
+const DrawComponent = require("../../../lib/component/drawComponent");
+
+class TestComponent extends DrawComponent {
+    Render(){
+        return "<div><h1>Test of example</h1></div> ";
+    }
+}
+module.exports = TestComponent;
+```
 <br>
 <br>
 
