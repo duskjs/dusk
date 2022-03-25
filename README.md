@@ -38,7 +38,7 @@ const DrawComponent = require("../../../lib/component/drawComponent");
 
 class TestComponent extends DrawComponent {
     Render(){
-        return "<div><h1>Test of example</h1></div> ";
+        return "<h1>Test of example</h1>";
     }
 }
 module.exports = TestComponent;
