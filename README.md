@@ -42,7 +42,7 @@ class TestComponent extends DrawComponent {
 }
 module.exports = TestComponent;
 ```
-<br><br>
+<br>
   
 ### Testing & Development:
 <hr>
