@@ -8,7 +8,7 @@
 </p>
 <br>
 
-Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw tries to take React.component & Vue tag ideas to create a new and orignal format from scratch. It needs to be easily scalable between a library and a framework (This can differ between use case). The origin is intended to give other developers a easier time when developing.
+Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw tries to take React.component & Vue tag ideas to create a new and orignal format from scratch.
 <br><br>
 
 ##### Examples
