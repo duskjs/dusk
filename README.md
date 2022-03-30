@@ -14,7 +14,7 @@ Draw is build to be a progressive framework for people to use and build interfac
 ##### Examples
 <hr>
 
-Draw uses its own html tag called the <w-tag>. This will give your HTML pages styling in a easy way. Its as simply:
+Draw uses its own html tag called the <d-tag>. This will give your HTML pages styling in a easy way. Its as simply:
  
  ```html
 <d-card>
@@ -25,23 +25,23 @@ Draw also has the abillity to use components! The way these are created is as fo
 
 ```shell
 npm run component
-#Component Name: Test
+#Component Name: Example
 #Starting generation component...
 #Component created successfully
 ```
-In this example you have created the component: TestComponent.
+In this example you have created the component: ExampleComponent.
 
 This component will be placed inside the component folder. There will be a folder with the name of the component you just created. Inside the folder there is a .js file. You can create html components like:
 
 ```Javascript
 const DrawComponent = require("../../../lib/component/drawComponent");
 
-class TestComponent extends DrawComponent {
+class ExampleComponent extends DrawComponent {
     Render(){
-        return "<h1>Test of example</h1>";
+        return "<d-row> <d-card> Welcome to Draw </d-card> </d-row>";
     }
 }
-module.exports = TestComponent;
+module.exports = ExampleComponent;
 ```
 <br>
   
