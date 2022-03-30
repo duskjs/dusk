@@ -2,7 +2,6 @@ const fs = require('fs');
 
 const Annotation = require("../lib/translation/annotation");
 const Component = require("../lib/component/componentConfig");
-const { Console } = require('console');
 
 try{     
     let jsonComponent = JSON.parse(fs.readFileSync('metadep.json', 'utf8'));
