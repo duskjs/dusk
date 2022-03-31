@@ -1,10 +1,4 @@
-<br>
-<p><img src="https://i.imgur.com/tkUPrMZ.png" width="90"> </p>
-<p align="center">
-  <a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
-  <a href="https://github.com/draw-js/draw/releases/tag/base"><img src="https://img.shields.io/github/package-json/v/draw-js/draw?color=%2345cdff&style=flat-square"></a>
-  
-# Draw <img src="https://i.imgur.com/tkUPrMZ.png" width="60">
+# <img src="https://i.imgur.com/tkUPrMZ.png" width="60"> Draw
 
 > Simple, Fast, Fun
   
