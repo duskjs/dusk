@@ -9,7 +9,7 @@
 > Simple, Fast, Fun
   
 - 📦  Components
-- 💡  Custom Features
+- 💡   Custom Features
 - ⚡️  Optimized distribution
   
 Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw tries to take React.component & Vue tag ideas to create a new and orignal format from scratch. Combining these ideas, an attempt is made to remove unused functionalities from production and tries to generate a pure html/javascript output as end result.
