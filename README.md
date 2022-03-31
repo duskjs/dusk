@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/tkUPrMZ.png" width="35"> Draw
+# Draw <img src="https://i.imgur.com/tkUPrMZ.png" width="35">
 
 > Simple, Fast, Fun
   
