@@ -6,6 +6,8 @@
   
 # Draw
 
+> Simple, Fast, Fun
+  
 - 📦 Components
 - 💡  Custom Features
 - ⚡️ Optimized distribution
