@@ -4,10 +4,12 @@
   <a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
   <a href="https://github.com/draw-js/draw/releases/tag/base"><img src="https://img.shields.io/github/package-json/v/draw-js/draw?color=%2345cdff&style=flat-square"></a>
   
-# Draw
+# Draw <img src="https://i.imgur.com/tkUPrMZ.png" width="60">
 
 > Simple, Fast, Fun
   
+<a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
+<a href="https://github.com/draw-js/draw/releases/tag/base"><img src="https://img.shields.io/github/package-json/v/draw-js/draw?color=%2345cdff&style=flat-square"></a>
 - 📦  Components
 - 💡   Custom Features
 - ⚡️  Optimized distribution
