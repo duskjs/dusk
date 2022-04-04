@@ -1,20 +1,20 @@
-<br>
-<p align="center"><img src="https://i.imgur.com/tkUPrMZ.png" width="9%" height="9%"> </p>
-<h4 align="center">draw</h4>
+# Draw <img src="https://i.imgur.com/tkUPrMZ.png" width="20">
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
-  <a href="https://github.com/draw-js/draw/releases/tag/base"><img src="https://img.shields.io/github/package-json/v/draw-js/draw?color=%2345cdff&style=flat-square"></a>
-</p>
-<br>
-
-Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw tries to take React.component & Vue tag ideas to create a new and orignal format from scratch.
+> Simple, Fast, Fun
+  
+<a href="https://www.npmjs.com/package/drawjsframework"><img src="https://img.shields.io/npm/v/drawjsframework.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
+<a href="https://github.com/draw-js/draw/releases/tag/base"><img src="https://img.shields.io/github/package-json/v/draw-js/draw?color=%2345cdff&style=flat-square"></a>
+- 📦  Components
+- 💡   Custom Features
+- ⚡️  Optimized distribution
+  
+Draw is build to be a progressive framework for people to use and build interfaces & web applications. Draw tries to take React.component & Vue tag ideas to create a new and orignal format from scratch. Combining these ideas, an attempt is made to remove unused functionalities from production and tries to generate a optimized output as end result.
 <br><br>
 
 ##### Examples
 <hr>
 
-Draw uses its own html tag called the <w-tag>. This will give your HTML pages styling in a easy way. Its as simply:
+Draw uses its own html tag called the <d-tag>. This will give your HTML pages styling in a easy way. Its as simply:
  
  ```html
 <d-card>
@@ -25,23 +25,23 @@ Draw also has the abillity to use components! The way these are created is as fo
 
 ```shell
 npm run component
-#Component Name: Test
+#Component Name: Example
 #Starting generation component...
 #Component created successfully
 ```
-In this example you have created the component: TestComponent.
+In this example you have created the component: ExampleComponent.
 
 This component will be placed inside the component folder. There will be a folder with the name of the component you just created. Inside the folder there is a .js file. You can create html components like:
 
 ```Javascript
 const DrawComponent = require("../../../lib/component/drawComponent");
 
-class TestComponent extends DrawComponent {
+class ExampleComponent extends DrawComponent {
     Render(){
-        return "<h1>Test of example</h1>";
+        return "<d-row> <d-card> Welcome to Draw </d-card> </d-row>";
     }
 }
-module.exports = TestComponent;
+module.exports = ExampleComponent;
 ```
 <br>
   
