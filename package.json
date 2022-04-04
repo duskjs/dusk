@@ -9,8 +9,8 @@
   "scripts": {
     "compile": "node scripts/build.js",
     "disting": "node scripts/dister.js",
-    "start": "npm run disting & npm run compile & node scripts/trasher.js & node index.js",
-    "server": "node index.js",
+    "serve": "npm run disting & npm run compile & node scripts/trasher.js & npm run execute",
+    "execute": "node scripts/executeServer.js",
     "component": "ts-node lib/component/component.ts"
   },
   "repository": {
