@@ -61,7 +61,7 @@ npm run component
 # Compiles the files inside the dist:
 npm run compile
 # Starts the project locally without setup:
-npm run server
+npm run execute
 # Sets the files up for compilling:
 npm run disting
 # To launch the application:
