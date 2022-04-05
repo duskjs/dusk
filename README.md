@@ -65,5 +65,5 @@ npm run server
 # Sets the files up for compilling:
 npm run disting
 # To launch the application:
-npm run start
+npm run serve
 ```
