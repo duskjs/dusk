@@ -16,9 +16,7 @@
 > 💡   Custom Features
 > ⚡️  Optimized distribution
 
-<br>
-
-##### npm:
+#### npm:
 
 > npm i draw-core
 <br>
