@@ -24,7 +24,7 @@ npm i draw-core
 ##### Examples
 <hr>
 
-Draw uses its own html tag called the '<d-tag>'. This will give your HTML pages styling in a easy way. Its as simply:
+Draw uses its own html tag called the d-tag. This will give your HTML pages styling in a easy way. Its as simply:
  
  ```html
 <d-card>
