@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/draw-js/draw#readme",
   "devDependencies": {
-    "@types/node": "^16.11.13"
+    "@types/node": "^16.11.13",
+    "typescript": "^4.6.4"
   },
   "dependencies": {
     "express": "^4.17.3",
