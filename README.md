@@ -21,7 +21,9 @@ Draw is build to be a progressive framework for people to use and build interfac
 
 #### npm:
 
-> npm i draw-core
+```
+npm i draw-core
+```
 <br>
 
 ##### Examples
