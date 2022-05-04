@@ -1,6 +1,6 @@
 <div align="center">
-  
-<img src="https://i.imgur.com/tkUPrMZ.png" width="80">
+<br>
+<img src="https://i.imgur.com/tkUPrMZ.png" width="120">
   
 ### Draw 
   
