@@ -10,8 +10,6 @@
 <a href="https://github.com/draw-js/draw/releases/tag/base"><img src="https://img.shields.io/github/package-json/v/draw-js/draw?color=%2345cdff&style=flat-square"></a>
 </div>
 
-<br>
-
 > 📦  Components
 > 💡   Custom Features
 > ⚡️  Optimized distribution
@@ -24,7 +22,6 @@ Draw is build to be a progressive framework for people to use and build interfac
 ```
 npm i draw-core
 ```
-<br>
 
 ##### Examples
 <hr>
