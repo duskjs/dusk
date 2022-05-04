@@ -16,6 +16,7 @@
 > 💡   Custom Features
 > ⚡️  Optimized distribution
 
+<br>
 
 #### npm:
 
