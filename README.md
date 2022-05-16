@@ -2,7 +2,7 @@
 <br>
 <img src="https://i.imgur.com/vkhe3qu.png" width="125">
 
-###
+### Dusk
  
 <a href="https://www.npmjs.com/package/duskjs"><img src="https://img.shields.io/npm/v/dusk.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
 <a href="https://github.com/duskjs/dusk/releases/tag/base"><img src="https://img.shields.io/github/package-json/v/duskjs/dusk?color=%2345cdff&style=flat-square"></a>
