@@ -1,7 +1,7 @@
 <div align="center">
 <br>
 <img src="https://i.imgur.com/vkhe3qu.png" width="125">
-  
+ <br> 
 <!-- ### Dusk -->
  
 <a href="https://www.npmjs.com/package/duskjs"><img src="https://img.shields.io/npm/v/dusk.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
