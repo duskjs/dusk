@@ -1,8 +1,8 @@
-const DrawComponent = require("../../../lib/component/drawComponent");
+const DuskComponent = require("../../../lib/component/duskComponent");
 
-class ExampleComponent extends DrawComponent {
+class ExampleComponent extends DuskComponent {
     Render(){
-        return "<d-row> <d-card> Welcome to Draw </d-card> </d-row>";
+        return "<d-row> <d-card> Welcome to Dusk </d-card> </d-row>";
     }
 }
 module.exports = ExampleComponent;
