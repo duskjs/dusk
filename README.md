@@ -4,7 +4,7 @@
   
 ### Dusk
  
-<a href="https://www.npmjs.com/package/dusk"><img src="https://img.shields.io/npm/v/Dusk.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
+<a href="https://www.npmjs.com/package/duskjs"><img src="https://img.shields.io/npm/v/Dusk.svg?color=%2345cdff&sanitize=true" alt="NPM"></a>
 <a href="https://github.com/duskjs/dusk/releases/tag/base"><img src="https://img.shields.io/github/package-json/v/duskjs/dusk?color=%2345cdff&style=flat-square"></a>
 </div>
 
@@ -18,7 +18,7 @@ Dusk is build to be a progressive framework for people to use and build interfac
 #### npm:
 
 ```
-npm i dusk
+npm i duskjs
 ```
 
 ##### Examples
