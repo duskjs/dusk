@@ -1,6 +1,6 @@
 <div align="center">
 <br>
-<img src="https://i.imgur.com/vkhe3qu.png" width="125">
+<img src="https://i.imgur.com/83SFIFy.png" width="125">
 
 ### Dusk
  
