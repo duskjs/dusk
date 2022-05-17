@@ -63,17 +63,9 @@ module.exports = ExampleComponent;
 - [x] Working clone of the repo, or the npm install of the project
 - [x] Execution of the npm install command
 
-These commands are work in progress and will be implemented in a custom format.
-
-```shell
-# To create a component:
-npm run component
-# Compiles the files inside the dist:
-npm run compile
-# Starts the project locally without setup:
-npm run execute
-# Sets the files up for compilling:
-npm run disting
-# To launch the application:
-npm run serve
-```
+###### 0.2.0 goals
+- [] Serve is runned without making a build first
+- [] Add custom css to dusk elements
+- [] Implement the availibility of adding your own Javascript functionality to a component
+- [] Add states to a component
+- [] When served, reflect changes in files on local host
