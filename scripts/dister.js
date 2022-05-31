@@ -1,5 +1,5 @@
 const fs = require('fs-extra')
-const TemplateVariable = require('../const/tempConst');
+const TemplateVariable = require('../const/const');
 
 DistFiles();
 

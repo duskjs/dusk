@@ -1,6 +1,5 @@
 const fs = require('fs-extra')
-const path = require('path');
-const distpath = path.join(__dirname, '../dist/');
+const distvariable = require('../const/const');
 
 RemoveComponents();
-function RemoveComponents(){ if (fs.existsSync(distpath+"component")) try{ fs.removeSync(distpath+"component"); console.log('Component trash removed.') }catch(e){} }
+function RemoveComponents(){ if (fs.existsSync(distvariable.distpath+"/component")) try{ fs.removeSync(distvariable.distpath+"/component"); console.log('Component trash removed.') }catch(e){} }

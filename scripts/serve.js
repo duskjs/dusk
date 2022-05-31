@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const TemplateVariable = require('../const/tempConst');
+const TemplateVariable = require('../const/const');
 const Annotation = require("../lib/translation/annotation");
 const Component = require("../lib/component/componentConfig");
 const app = require('../lib/app/app');
@@ -10,7 +10,7 @@ ServeServer();
 async function ServeServer()
 {
     try{     
-        let jsonComponent = JSON.parse(fs.readFileSync('metadep.json', 'utf8'));
+        let jsonComponent = JSON.parse(fs.readFileSync(TemplateVariable.packagejson_path, 'utf8'));
         console.log("Target found.");
         let content = await Annotation.ParseContentAsString(Component.getExtendsComponent(jsonComponent['component']).Render());
         console.log("Content parsed.");
