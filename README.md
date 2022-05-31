@@ -93,8 +93,7 @@ module.exports = ExampleComponent;
 - [x] Execution of the npm install command
 
 ###### 0.2.0 goals
-- [] Serve is runned without making a build first
+- [x] Serve is runned without making a build first
 - [] Add custom css to dusk elements
 - [] Implement the availibility of adding your own Javascript functionality to a component
-- [] Add states to a component
 - [] When served, reflect changes in files on local host
