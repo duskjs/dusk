@@ -93,3 +93,7 @@ module.exports = ExampleComponent;
 - [ ] Add custom css to dusk elements
 - [ ] Implement the availibility of adding your own Javascript functionality to a component
 - [ ] When served, reflect changes in files on local host
+
+##### License
+
+Licensed under [MIT](./LICENSE).
