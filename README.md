@@ -27,6 +27,7 @@ npm i duskjs
 <br>
 
 #### setup:
+<hr>
 
 > <b> THE FOLLOWING APPLICATIONS BELOW ARE TEMPORARY AND WILL BE AUTOMATED IN THE FUTURE. </b>
 
