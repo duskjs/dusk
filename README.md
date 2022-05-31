@@ -32,8 +32,8 @@ npm i duskjs
 > <b> THE FOLLOWING APPLICATIONS BELOW ARE TEMPORARY AND WILL BE AUTOMATED IN THE FUTURE. </b>
 
 The following needs to be created after a installation of Dusk:
-- [x] a folder named: 'src'. This needs to be inside the same folder as the node_modules.
-- [x] There needs to be a 'index.js' file inside the 'src' folder.
+- A folder named: 'src'. This needs to be inside the same folder as the node_modules.
+- There needs to be a 'index.js' file inside the 'src' folder.
 
 These handlings will be handled inside a future update be for now we need to do it by hand. Now were almost ready to use Dusk. We only need to edit our package.json with the following:
 
