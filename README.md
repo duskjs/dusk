@@ -26,7 +26,7 @@ npm i duskjs
 ```
 <br>
 
-#### setup:
+### setup:
 <hr>
 
 > <b> THE FOLLOWING APPLICATIONS BELOW ARE TEMPORARY AND WILL BE AUTOMATED IN THE FUTURE. </b>
@@ -46,7 +46,7 @@ A folder named: 'src'. This needs to be inside the same folder as the node_modul
 ```
 Inside the package.json we added the commands that can be used for Dusk. Also we included the port where Dusk needs to run on locally. And as last with the component object we give the name of the target to start with. The component will be the first building block for the application and the compiling will start from this component to create the code for the project.
 
-##### Examples
+### Examples
 <hr>
 
 Dusk uses its own html tag called the d-tag. This will give your HTML pages styling in a easy way. Its as simply:
@@ -84,15 +84,15 @@ module.exports = ExampleComponent;
 <hr>
 If you got a idea of adjustment, create a pull request or a new issue for your input. It will get a look and comment if it is good enough & usefull. If you want to help with the realisation, take one of the goals of the version update. Make a pull request with your change and we give it a look.
 
-##### Testing & Development
+### Testing & Development
 <hr>
   
-##### Requirements
+#### Requirements
 - [x] A install of Node.js
 - [x] Working clone of the repo, or the npm install of the project
 - [x] Execution of the npm install command
 
-###### 0.2.0 goals
+#### 0.2.0 goals
 - [x] Serve is runned without making a build first
 - [ ] Add custom css to dusk elements
 - [ ] Implement the availibility of adding your own Javascript functionality to a component
