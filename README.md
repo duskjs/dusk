@@ -17,7 +17,7 @@ Dusk is build to be a progressive library for people to use and build interfaces
 
 #### npm:
 
-```
+```shell
 #Setup for npm project:
 npm init -y
 
@@ -36,7 +36,7 @@ The following needs to be created after a installation of Dusk:
 
 These handlings will be handled inside a future update be for now we need to do it by hand. Now were almost ready to use Dusk. We only need to edit our package.json with the following:
 
-```
+```shell
 "component": "ExampleComponent",
 "port":8085,
 "scripts": {
