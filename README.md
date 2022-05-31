@@ -94,6 +94,9 @@ module.exports = ExampleComponent;
 - [ ] Implement the availibility of adding your own Javascript functionality to a component
 - [ ] When served, reflect changes in files on local host
 
+### Contribute to the project
+If you got a idea of adjustment, create a pull request or a new issue for your input. It will get a look and comment if it is good enough & usefull. If you want to help with the realisation, take one of the goals of the version update. Make a pull request with your change and we give it a look ;).
+
 ### License
 <hr>
 
