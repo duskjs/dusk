@@ -9,7 +9,7 @@ async function StartGenerationComponent()
         output: process.stdout
     })
     
-    readline.question(`Component name: `, (name: string) => {
+    readline.question(`Component name: `, (name) => {
         
         try
         {
