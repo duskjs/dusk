@@ -15,18 +15,14 @@
 Dusk is build to be a progressive framework for people to use and build interfaces & web applications. Dusk tries to take React.component & Vue tag ideas to create a new and orignal format from scratch. Combining these ideas, an attempt is made to remove unused functionalities from production and tries to generate a optimized output as end result.
 <br>
 
-#### npm:
+#### npm
 
 ```shell
-#Setup for npm project:
-npm init -y
-
-#Installation of the library
 npm i duskjs
 ```
 <br>
 
-### Setup:
+### Setup
 <hr>
 
 > <b> THE FOLLOWING APPLICATIONS BELOW ARE TEMPORARY AND WILL BE AUTOMATED IN THE FUTURE. </b>
