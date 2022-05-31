@@ -74,7 +74,6 @@ class ExampleComponent extends DuskComponent {
 }
 module.exports = ExampleComponent;
 ```
-<br>
   
 ### Contribute to the project
 <hr>
