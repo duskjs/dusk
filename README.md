@@ -94,6 +94,6 @@ module.exports = ExampleComponent;
 
 ###### 0.2.0 goals
 - [x] Serve is runned without making a build first
-- [] Add custom css to dusk elements
-- [] Implement the availibility of adding your own Javascript functionality to a component
-- [] When served, reflect changes in files on local host
+- [ ] Add custom css to dusk elements
+- [ ] Implement the availibility of adding your own Javascript functionality to a component
+- [ ] When served, reflect changes in files on local host
