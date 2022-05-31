@@ -31,11 +31,7 @@ npm i duskjs
 
 > <b> THE FOLLOWING APPLICATIONS BELOW ARE TEMPORARY AND WILL BE AUTOMATED IN THE FUTURE. </b>
 
-The following needs to be created after a installation of Dusk:
-- A folder named: 'src'. This needs to be inside the same folder as the node_modules.
-- There needs to be a 'index.js' file inside the 'src' folder.
-
-These handlings will be handled inside a future update be for now we need to do it by hand. Now were almost ready to use Dusk. We only need to edit our package.json with the following:
+A folder named: 'src'. This needs to be inside the same folder as the node_modules. After the creation of the 'src'folder, create a 'index.js' inside the 'src'folder. Now we need to configurate a little. These handlings will be handled inside a future update be for now we need to do it by hand. Now were almost ready to use Dusk. We only need to edit our package.json with the following:
 
 ```shell
 "component": "ExampleComponent",
@@ -48,7 +44,7 @@ These handlings will be handled inside a future update be for now we need to do 
     "component": "ts-node node_modules/duskjs/lib/component/component.ts"
 }
 ```
-Inside the package.json we added the commands that can be used for Dusk. Also we included the port where Dusk needs to run on locally. And as last with the component object we give the name of the target to start with. The component will be the first building block for the application and will start from there when compiling the code for the project.
+Inside the package.json we added the commands that can be used for Dusk. Also we included the port where Dusk needs to run on locally. And as last with the component object we give the name of the target to start with. The component will be the first building block for the application and the compiling will start from this component to create the code for the project.
 
 ##### Examples
 <hr>
