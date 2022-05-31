@@ -94,6 +94,8 @@ module.exports = ExampleComponent;
 - [ ] Implement the availibility of adding your own Javascript functionality to a component
 - [ ] When served, reflect changes in files on local host
 
+<br>
+
 ### License
 <hr>
 
