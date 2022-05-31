@@ -35,15 +35,15 @@ The following needs to be created after a installation of Dusk:
 These handlings will be handled inside a future update be for now we need to do it by hand. Now were almost ready to use Dusk. We only need to edit our package.json with the following:
 
 ```
- "component": "ExampleComponent",
-  "port":8085,
-  "scripts": {
+"component": "ExampleComponent",
+"port":8085,
+"scripts": {
     "compile": "node node_modules/duskjs/scripts/build.js",
     "disting": "node node_modules/duskjs/scripts/dister.js",
     "build": "npm run disting & npm run compile & node node_modules/duskjs/scripts/trasher.js",
     "serve": "node node_modules/duskjs/scripts/serve.js",
     "component": "ts-node node_modules/duskjs/lib/component/component.ts"
-  }
+}
 ```
 This are the commands that you can use for Dusk. This also includes the port where Dusk needs to run on locally. With the component object we give the name of the target to start with. The component will be the first building block for the application and will start from there when compiling the code to the project.
 
