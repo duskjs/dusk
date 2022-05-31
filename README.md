@@ -24,7 +24,9 @@ npm init -y
 #Installation of the library
 npm i duskjs
 ```
-> THE FOLLOWING APPLICATIONS BELOW ARE TEMPORARY AND WILL BE AUTOMATED IN THE FUTURE.
+<br>
+
+> <b> THE FOLLOWING APPLICATIONS BELOW ARE TEMPORARY AND WILL BE AUTOMATED IN THE FUTURE. </b>
 
 The following needs to be created after a installation of Dusk:
 - [x] a folder named: 'src'. This needs to be inside the same folder as the node_modules.
