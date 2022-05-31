@@ -12,14 +12,38 @@
 > 💡   Custom Features
 > ⚡️  Optimized distribution
 
-Dusk is build to be a progressive framework for people to use and build interfaces & web applications. Dusk tries to take React.component & Vue tag ideas to create a new and orignal format from scratch. Combining these ideas, an attempt is made to remove unused functionalities from production and tries to generate a optimized output as end result.
+Dusk is build to be a progressive library for people to use and build interfaces & web applications. Dusk tries to take React.component & Vue tag ideas to create a new and orignal format from scratch. Combining these ideas, an attempt is made to remove unused functionalities from production and tries to generate a optimized output as end result.
 <br>
 
 #### npm:
 
 ```
+#Setup for npm project:
+npm init -y
+
+#Installation of the library
 npm i duskjs
 ```
+> THE FOLLOWING APPLICATIONS BELOW ARE TEMPORARY AND WILL BE AUTOMATED IN THE FUTURE.
+
+The following needs to be created after a installation of Dusk:
+- [x] a folder named: 'src'. This needs to be inside the same folder as the node_modules.
+- [x] There needs to be a 'index.js' file inside the 'src' folder.
+
+These handlings will be handled inside a future update be for now we need to do it by hand. Now were almost ready to use Dusk. We only need to edit our package.json with the following:
+
+```
+ "component": "ExampleComponent",
+  "port":8085,
+  "scripts": {
+    "compile": "node node_modules/duskjs/scripts/build.js",
+    "disting": "node node_modules/duskjs/scripts/dister.js",
+    "build": "npm run disting & npm run compile & node node_modules/duskjs/scripts/trasher.js",
+    "serve": "node node_modules/duskjs/scripts/serve.js",
+    "component": "ts-node node_modules/duskjs/lib/component/component.ts"
+  }
+```
+This are the commands that you can use for Dusk. This also includes the port where Dusk needs to run on locally. With the component object we give the name of the target to start with. The component will be the first building block for the application and will start from there when compiling the code to the project.
 
 ##### Examples
 <hr>
@@ -44,7 +68,7 @@ In this example you have created the component: ExampleComponent.
 This component will be placed inside the component folder. There will be a folder with the name of the component you just created. Inside the folder there is a .js file. You can create html components like:
 
 ```Javascript
-const DuskComponent = require("../../../lib/component/duskComponent");
+const DuskComponent = require("duskjs/lib/component/duskComponent");
 
 class ExampleComponent extends DuskComponent {
     Render(){
