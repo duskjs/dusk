@@ -48,7 +48,7 @@ These handlings will be handled inside a future update be for now we need to do 
     "component": "ts-node node_modules/duskjs/lib/component/component.ts"
 }
 ```
-This are the commands that you can use for Dusk. This also includes the port where Dusk needs to run on locally. With the component object we give the name of the target to start with. The component will be the first building block for the application and will start from there when compiling the code to the project.
+Inside the package.json we added the commands that can be used for Dusk. Also we included the port where Dusk needs to run on locally. And as last with the component object we give the name of the target to start with. The component will be the first building block for the application and will start from there when compiling the code for the project.
 
 ##### Examples
 <hr>
