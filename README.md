@@ -13,7 +13,7 @@
 > ⚡️  Optimized distribution
 
 Dusk is build to be a progressive library for people to use and build interfaces & web applications. Dusk tries to take React.component & Vue tag ideas to create a new and orignal format from scratch. Combining these ideas, an attempt is made to remove unused functionalities from production and tries to generate a optimized output as end result.
-<br>
+<br><br>
 
 #### npm:
 
