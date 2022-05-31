@@ -13,7 +13,7 @@
 > ⚡️  Optimized distribution
 
 Dusk is build to be a progressive library for people to use and build interfaces & web applications. Dusk tries to take React.component & Vue tag ideas to create a new and orignal format from scratch. Combining these ideas, an attempt is made to remove unused functionalities from production and tries to generate a optimized output as end result.
-<br><br>
+<br>
 
 #### npm:
 
@@ -24,9 +24,11 @@ npm init -y
 #Installation of the library
 npm i duskjs
 ```
-<br>
+<br><br><br>
 
 > <b> THE FOLLOWING APPLICATIONS BELOW ARE TEMPORARY AND WILL BE AUTOMATED IN THE FUTURE. </b>
+
+<br><br>
 
 The following needs to be created after a installation of Dusk:
 - [x] a folder named: 'src'. This needs to be inside the same folder as the node_modules.
